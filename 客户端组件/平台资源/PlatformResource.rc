@@ -1,0 +1,400 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\PlatformResource.rc2""  // 不是由 Microsoft Visual C++ 编辑过的资源\r\n"
+    "#include ""afxres.rc""     // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 6,7,0,1
+ PRODUCTVERSION 6,7,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x2L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "Comments", "深圳市网狐科技有限公司"
+            VALUE "CompanyName", "深圳市网狐科技有限公司"
+            VALUE "FileDescription", "平台资源"
+            VALUE "FileVersion", "6, 7, 0, 1"
+            VALUE "InternalName", "PlatformResource.dll"
+            VALUE "LegalCopyright", "深圳市网狐科技有限公司保留所有权利。"
+            VALUE "OriginalFilename", "PlatformResource.dll"
+            VALUE "ProductName", "平台资源"
+            VALUE "ProductVersion", "6, 7, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_HAND_CUR            CURSOR                  "Res\\HAND_CUR.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// PNG
+//
+
+
+CHECK_NORMAL            PNG                     "res\\CHECK_NORMAL.png"
+CHECK_CHECKED           PNG                     "res\\CHECK_CHECKED.png"
+RADIO_NORMAL            PNG                     "res\\RADIO_NORMAL.png"
+RADIO_CHECKED           PNG                     "res\\RADIO_CHECKED.png"
+BT_SKIN_ITEM            PNG                     "res\\BT_SKIN_ITEM.png"
+EDIT_SKIN_NORMAL        PNG                     "res\\EDIT_SKIN_NORMAL.png"
+IMAGE_ROUND_FRAME       PNG                     "res\\IMAGE_ROUND_FRAME.png"
+IMAGE_ROUND_FRAME1      PNG                     "res\\IMAGE_ROUND_FRAME1.png"
+IMAGE_LINE              PNG                     "res\\IMAGE_LINE.png"
+COMBO_NORMAL            PNG                     "res\\COMBO_NORMAL.png"
+COMBO_PUSHED            PNG                     "res\\COMBO_PUSHED.png"
+COMBO_HOT               PNG                     "res\\COMBO_HOT.png"
+DLG_LOGON_BACK          PNG                     "res\\PLAZA_LOGON\\DLG_LOGON_BACK.PNG"
+BT_LOGON_LINK_1         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_1.png"
+BT_LOGON_LINK_2         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_2.png"
+BT_LOGON_LINK_3         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_3.png"
+BT_LOGON_LINK_4         PNG                     "res\\PLAZA_LOGON\\BT_LOGON_LINK_4.png"
+LOGON_TITILE            PNG                     "res\\PLAZA_LOGON\\LOGON_TITILE.PNG"
+BT_LOGON_ITEM           PNG                     "res\\PLAZA_LOGON\\BT_LOGON_ITEM.png"
+DLG_REGISTER_BACK       PNG                     "res\\PLAZA_LOGON\\DLG_REGISTER_BACK.png"
+REGISTER_TITLE          PNG                     "res\\PLAZA_LOGON\\REGISTER_TITLE.png"
+BT_REGISTER_ENTER       PNG                     "res\\PLAZA_LOGON\\BT_REGISTER_ENTER.png"
+BT_REGISTER_QUIT        PNG                     "res\\PLAZA_LOGON\\BT_REGISTER_QUIT.png"
+BT_ENTER                PNG                     "res\\PLAZA_LOGON\\BT_ENTER.png"
+BT_LOGON_CLOSE          PNG                     "res\\PLAZA_LOGON\\BT_LOGON_CLOSE.png"
+BT_LOGON_MIN            PNG                     "res\\PLAZA_LOGON\\BT_LOGON_MIN.png"
+LOGON_COMBO_NORMAL      PNG                     "res\\PLAZA_LOGON\\LOGON_COMBO_NORMAL.png"
+LOGON_COMBO_HOT         PNG                     "res\\PLAZA_LOGON\\LOGON_COMBO_HOT.png"
+LOGON_COMBO_PUSHED      PNG                     "res\\PLAZA_LOGON\\LOGON_COMBO_PUSHED.png"
+BT_SELECT_FACE          PNG                     "res\\PLAZA_LOGON\\BT_SELECT_FACE.png"
+IMAGE_RIGHT             PNG                     "res\\PLAZA_LOGON\\IMAGE_RIGHT.png"
+IMAGE_REGISTER          PNG                     "res\\PLAZA_LOGON\\IMAGE_REGISTER.png"
+BT_BACKSPACE            PNG                     "res\\PLAZA_LOGON\\BT_BACKSPACE.png"
+BT_NUMBER_ITEM          PNG                     "res\\PLAZA_LOGON\\BT_NUMBER_ITEM.png"
+BT_ACCREDIT             PNG                     "res\\PLAZA_LOGON\\BT_ACCREDIT.png"
+BT_ACCREDIT_CLOSE       PNG                     "res\\PLAZA_LOGON\\BT_ACCREDIT_CLOSE.png"
+DLG_ACCREDIT_BACK       PNG                     "res\\PLAZA_LOGON\\DLG_ACCREDIT_BACK.png"
+ACCREDIT_BORDER         PNG                     "res\\PLAZA_LOGON\\ACCREDIT_BORDER.png"
+BT_CLEAN_USER           PNG                     "res\\PLAZA_LOGON\\BT_CLEAN_USER.png"
+BT_FIND_PWD             PNG                     "res\\PLAZA_LOGON\\BT_FIND_PWD.png"
+PLATFORM_LOGO           PNG                     "res\\PLATFORM_FRAME\\PLATFORM_LOGO.PNG"
+BT_PLATFORM_CLOSE       PNG                     "res\\PLATFORM_FRAME\\BT_CLOSE.png"
+BT_PLATFORM_MAX         PNG                     "res\\PLATFORM_FRAME\\BT_MAX.png"
+BT_PLATFORM_RESORE      PNG                     "res\\PLATFORM_FRAME\\BT_RESORE.png"
+BT_PLATFORM_MIN         PNG                     "res\\PLATFORM_FRAME\\BT_MIN.png"
+BT_PLATFORM_NAVIGATION_1 PNG                     "res\\PLATFORM_FRAME\\BT_NAVIGATION_1.png"
+BT_PLATFORM_NAVIGATION_2 PNG                     "res\\PLATFORM_FRAME\\BT_NAVIGATION_2.png"
+BT_PLATFORM_NAVIGATION_3 PNG                     "res\\PLATFORM_FRAME\\BT_NAVIGATION_3.png"
+BT_PLATFORM_NAVIGATION_4 PNG                     "res\\PLATFORM_FRAME\\BT_NAVIGATION_4.png"
+BT_PLATFORM_NAVIGATION_5 PNG                     "res\\PLATFORM_FRAME\\BT_NAVIGATION_5.png"
+BT_GAME_TYPE_LEFT       PNG                     "res\\GAME_TYPE\\BT_GAME_TYPE_LEFT.png"
+BT_GAME_TYPE_RIGHT      PNG                     "res\\GAME_TYPE\\BT_GAME_TYPE_RIGHT.png"
+BT_USER_CENTER          PNG                     "res\\PLATFORM_USERINFO\\BT_USER_CENTER.png"
+BT_MYTASK               PNG                     "res\\PLATFORM_USERINFO\\BT_MYTASK.png"
+BT_BANK                 PNG                     "res\\PLATFORM_USERINFO\\BT_BANK.png"
+BT_MYPOPULARIZE         PNG                     "res\\PLATFORM_USERINFO\\BT_MYPOPULARIZE.png"
+BT_LOCK_MACHINE         PNG                     "res\\PLATFORM_USERINFO\\BT_LOCK_MACHINE.png"
+BT_FIND_FRIEND          PNG                     "res\\PLATFORM_USERINFO\\BT_FIND_FRIEND.png"
+BT_RECHARGE             PNG                     "res\\PLATFORM_USERINFO\\BT_RECHARGE.png"
+BT_GETSCORE             PNG                     "res\\PLATFORM_USERINFO\\BT_GETSCORE.png"
+IMAGE_XP                PNG                     "res\\PLATFORM_USERINFO\\IMAGE_XP.png"
+IMAGE_GIFT              PNG                     "res\\PLATFORM_USERINFO\\IMAGE_GIFT.png"
+IMAGE_LEVEL_PROGRESS    PNG                     "res\\PLATFORM_USERINFO\\IMAGE_LEVEL_PROGRESS.png"
+IMAGE_PROGRESS_NUMBER   PNG                     "res\\PLATFORM_USERINFO\\IMAGE_PROGRESS_NUMBER.png"
+IMAGE_PROGRESS_LINE     PNG                     "res\\PLATFORM_USERINFO\\PROGRESS_LINE.png"
+IMAGE_PROGRESS_POINT    PNG                     "res\\PLATFORM_USERINFO\\PROGRESS_POINT.png"
+IMAGE_MEMBER_LEVEL      PNG                     "res\\PLATFORM_USERINFO\\IMAGE_MEMBER_LEVEL.png"
+BT_Qiandao              PNG                     "res\\PLATFORM_USERINFO\\BT_Qiandao.png" //  陈鹏
+BT_DiBao                PNG                     "res\\PLATFORM_USERINFO\\BT_DiBao.png"
+BT_RenWu                PNG                     "res\\PLATFORM_USERINFO\\BT_RenWu.png"
+BT_TuiGuang             PNG                     "res\\PLATFORM_USERINFO\\BT_TuiGuang.png"
+BT_FLASHCORN            PNG                     "res\\PLATFORM_USERINFO\\BT_FLASHCORN.png"
+BT_COPYUSERID            PNG                     "res\\PLATFORM_USERINFO\\BT_COPYUSERID.png"
+BT_CHOUJIANG            PNG                     "res\\PLATFORM_USERINFO\\BT_CHOUJIANG.png"
+KIND_FRAME              PNG                     "res\\PLATFORM_VIEW\\KIND_FRAME.png"
+KIND_HOVER              PNG                     "res\\PLATFORM_VIEW\\KIND_HOVER.png"
+KIND_UNSURE             PNG                     "res\\PLATFORM_VIEW\\KIND_UNSURE.png"
+KIND_NAME_UNKNOWN       PNG                     "res\\PLATFORM_VIEW\\KIND_NAME_UNKNOWN.png"
+SERVER_KIND_NORMAL      PNG                     "res\\PLATFORM_VIEW\\SERVER_KIND_NORMAL.png"
+SERVER_KIND_MATCH_0     PNG                     "res\\PLATFORM_VIEW\\SERVER_KIND_MATCH_0.png"
+SERVER_KIND_MATCH_1     PNG                     "res\\PLATFORM_VIEW\\SERVER_KIND_MATCH_1.png"
+SERVER_LOGO_MATCH       PNG                     "res\\PLATFORM_VIEW\\SERVER_LOGO_MATCH.png"
+SERVER_LOGO_DISTRIBUTE  PNG                     "res\\PLATFORM_VIEW\\SERVER_LOGO_DISTRIBUTE.png"
+SERVER_HOVER            PNG                     "res\\PLATFORM_VIEW\\SERVER_HOVER.png"
+SERVER_NETSTATUS        PNG                     "res\\PLATFORM_VIEW\\SERVER_NETSTATUS.png"
+SERVER_LOCKER           PNG                     "res\\PLATFORM_VIEW\\SERVER_LOCKER.png"
+DIALOG_MATCH_BACK       PNG                     "res\\PLATFORM_VIEW\\DIALOG_MATCH_BACK.png"
+BT_MATCH_CLOSE          PNG                     "res\\PLATFORM_VIEW\\BT_MATCH_CLOSE.png"
+MATCH_TYPE_1_SIGNUP     PNG                     "res\\PLATFORM_VIEW\\MATCH_TYPE_1_SIGNUP.png"
+MATCH_TYPE_1_NORMAL     PNG                     "res\\PLATFORM_VIEW\\MATCH_TYPE_1_NORMAL.png"
+MATCH_TYPE_0_SIGNUP     PNG                     "res\\PLATFORM_VIEW\\MATCH_TYPE_0_SIGNUP.png"
+MATCH_TYPE_0_NORMAL     PNG                     "res\\PLATFORM_VIEW\\MATCH_TYPE_0_NORMAL.png"
+MATCH_NUMBER            PNG                     "res\\PLATFORM_VIEW\\MATCH_NUMBER.png"
+BT_SIGNUP               PNG                     "res\\PLATFORM_VIEW\\BT_SIGNUP.png"
+BT_UNSIGNUP             PNG                     "res\\PLATFORM_VIEW\\BT_UNSIGNUP.png"
+BT_CHECK_SCORE          PNG                     "res\\PLATFORM_VIEW\\BT_CHECK_SCORE.png"
+IMAGE_TIME_NUMBER       PNG                     "res\\PLATFORM_VIEW\\IMAGE_TIME_NUMBER.png"
+BT_ARROW_LEFT           PNG                     "res\\PLATFORM_VIEW\\BT_ARROW_LEFT.png"
+BT_ARROW_RIGHT          PNG                     "res\\PLATFORM_VIEW\\BT_ARROW_RIGHT.png"
+BT_CHECKIN              PNG                     "res\\PLATFORM_AFFICHE\\BT_CHECKIN.png"
+BT_BASEMONEY            PNG                     "res\\PLATFORM_AFFICHE\\BT_BASEMONEY.png"
+DLG_INPUT_PASSWD_BACK   PNG                     "res\\PLATFORM_SERVER\\DLG_INPUT_PASSWD_BACK.png"
+BT_QUIT_SERVER          PNG                     "res\\PLATFORM_SERVER\\BT_QUIT_SERVER.png"
+BT_TABLE_BUTTON_1       PNG                     "res\\PLATFORM_SERVER\\BT_TABLE_BUTTON_1.png"
+BT_TABLE_BUTTON_2       PNG                     "res\\PLATFORM_SERVER\\BT_TABLE_BUTTON_2.png"
+BT_TABLE_BUTTON_3       PNG                     "res\\PLATFORM_SERVER\\BT_TABLE_BUTTON_3.png"
+BT_TABLE_BUTTON_4       PNG                     "res\\PLATFORM_SERVER\\BT_TABLE_BUTTON_4.png"
+BT_TABLE_BUTTON_5       PNG                     "res\\PLATFORM_SERVER\\BT_TABLE_BUTTON_5.png"
+BT_INPUT_PASSWD_CONFIRM PNG                     "res\\PLATFORM_SERVER\\BT_CONFIRM.png"
+BT_INPUT_PASSWD_CLOSE   PNG                     "res\\PLATFORM_SERVER\\BT_CLOSE.png"
+BT_CHAT_BUTTON1         PNG                     "res\\PLATFORM_SERVER\\BT_CHAT_BUTTON_1.png"
+BT_CHAT_BUTTON2         PNG                     "res\\PLATFORM_SERVER\\BT_CHAT_BUTTON_2.png"
+BT_CHAT_BUTTON3         PNG                     "res\\PLATFORM_SERVER\\BT_CHAT_BUTTON_3.png"
+BT_CHAT_BUTTON4         PNG                     "res\\PLATFORM_SERVER\\BT_CHAT_BUTTON_4.png"
+BT_CHAT_SHORT           PNG                     "res\\PLATFORM_SERVER\\BT_CHAT_SHORT.png"
+BT_SEND_CHAT            PNG                     "res\\PLATFORM_SERVER\\BT_SEND_CHAT.png"
+BT_CHECKIN_TODO         PNG                     "res\\PLATFORM_CHECKIN\\BT_CHECKIN_TODO.png"
+BT_CHECKIN_CLOSE        PNG                     "res\\PLATFORM_CHECKIN\\BT_CHECKIN_CLOSE.png"
+IMAGE_CHECKIN_NUMBER    PNG                     "res\\PLATFORM_CHECKIN\\IMAGE_CHECKIN_NUMBER.png"
+IMAGE_CHECKIN_CARD      PNG                     "res\\PLATFORM_CHECKIN\\IMAGE_CHECKIN_CARD.png"
+IMAGE_CHECKIN_ANIMATION PNG                     "res\\PLATFORM_CHECKIN\\IMAGE_CHECKIN_ANIMAION.png"
+DLG_CHECKIN_BACK        PNG                     "res\\PLATFORM_CHECKIN\\DLG_CHECKIN_BACK.png"
+BT_TASK_LOOK            PNG                     "res\\PLATFORM_TASK\\BT_TASK_LOOK.png"
+BT_TASK_RETURN          PNG                     "res\\PLATFORM_TASK\\BT_TASK_RETURN.png"
+BT_TASK_TAKE            PNG                     "res\\PLATFORM_TASK\\BT_TASK_TAKE.png"
+BT_TASK_REWARD          PNG                     "res\\PLATFORM_TASK\\BT_TASK_REWARD.png"
+BT_NOTIFYER_CLOSE       PNG                     "res\\PLATFORM_TASK\\BT_NOTIFYER_CLOSE.png"
+DLG_TASKNOTIFYER_BACK   PNG                     "res\\PLATFORM_TASK\\DLG_TASKNOTIFYER_BACK.png"
+DLG_TASKGUIDE_BACK      PNG                     "res\\PLATFORM_TASK\\DLG_TASKGUIDE_BACK.png"
+TASK_LIST_T             PNG                     "res\\PLATFORM_TASK\\TASK_LIST_T.png"
+TASK_LIST_M             PNG                     "res\\PLATFORM_TASK\\TASK_LIST_M.png"
+TASK_LIST_B             PNG                     "res\\PLATFORM_TASK\\TASK_LIST_B.png"
+TASK_ABOUT_T            PNG                     "res\\PLATFORM_TASK\\TASK_ABOUT_T.png"
+TASK_ABOUT_M            PNG                     "res\\PLATFORM_TASK\\TASK_ABOUT_M.png"
+TASK_ABOUT_B            PNG                     "res\\PLATFORM_TASK\\TASK_ABOUT_B.png"
+TASK_LINE               PNG                     "res\\PLATFORM_TASK\\LINE.png"
+TASK_ARROW              PNG                     "res\\PLATFORM_TASK\\ARROW.png"
+TASK_TITLE              PNG                     "res\\PLATFORM_TASK\\IMAGE_TITLE.png"
+TASK_ARROW_EXPAND       PNG                     "res\\PLATFORM_TASK\\TASK_ARROW_EXPAND.png"
+TASK_ARROW_COLLPASE     PNG                     "res\\PLATFORM_TASK\\TASK_ARROW_COLLPASE.png"
+DLG_STATUS_BACK         PNG                     "res\\PLATFORM_STATUS\\DLG_STATUS_BACK.png"
+STATUS_WAITING          PNG                     "res\\PLATFORM_STATUS\\STATUS_WAITING.png"
+STATUS_BACK             PNG                     "res\\PLATFORM_STATUS\\STATUS_BACK.png"
+BT_STATUS_CANCLE        PNG                     "res\\PLATFORM_STATUS\\BT_STATUS_CANCLE.png"
+STATUS_LINE             PNG                     "res\\PLATFORM_STATUS\\STATUS_LINE.png"
+STATUS_PERCENT          PNG                     "res\\PLATFORM_STATUS\\STATUS_PERCENT.png"
+STATUS_NUMBER           PNG                     "res\\PLATFORM_STATUS\\STATUS_NUMBER.png"
+STATUS_POINT            PNG                     "res\\PLATFORM_STATUS\\STATUS_POINT.png"
+STATUS_UPDATE_WORDS     PNG                     "res\\PLATFORM_STATUS\\STATUS_UPDATE_WORDS.png"
+BT_PROMPT_TAKE          PNG                     "res\\PLATFORM_BASEENSURE\\BT_PROMPT_TAKE.png"
+BT_PROMPT_TASK          PNG                     "res\\PLATFORM_BASEENSURE\\BT_PROMPT_TASK.png"
+BT_PROMPT_CHECKIN       PNG                     "res\\PLATFORM_BASEENSURE\\BT_PROMPT_CHECKIN.png"
+BT_PROMPT_RECHARGE      PNG                     "res\\PLATFORM_BASEENSURE\\BT_PROMPT_RECHARGE.png"
+BT_AS_PROMOTER          PNG                     "res\\PLATFORM_BASEENSURE\\BT_AS_PROMOTER.png"
+IMAGE_ENSURE_TITLE      PNG                     "res\\PLATFORM_BASEENSURE\\IMAGE_TITLE.png"
+IMAGE_ENCIRCLE_L        PNG                     "res\\PLATFORM_BASEENSURE\\ENCIRCLE_L.png"
+IMAGE_ENCIRCLE_M        PNG                     "res\\PLATFORM_BASEENSURE\\ENCIRCLE_M.png"
+IMAGE_ENCIRCLE_R        PNG                     "res\\PLATFORM_BASEENSURE\\ENCIRCLE_R.png"
+IMAGE_ENQUIRE_TITLE     PNG                     "res\\PLATFORM_ENQUIRE\\IMAGE_TITLE.png"
+IMAGE_ENQUIRE_BACK      PNG                     "res\\PLATFORM_ENQUIRE\\DLG_ENQUIRE_BACK.png"
+BT_CLOSE_PLAZA          PNG                     "res\\PLATFORM_ENQUIRE\\BT_CLOSE_PLAZA.png"
+BT_CLOSE_SERVER         PNG                     "res\\PLATFORM_ENQUIRE\\BT_CLOSE_SERVER.png"
+BT_SWITCH_ACCOUNTS      PNG                     "res\\PLATFORM_ENQUIRE\\BT_SWITCH_ACCOUNTS.png"
+BT_ENQUIRE_CANCEL       PNG                     "res\\PLATFORM_ENQUIRE\\BT_CANCEL.png"
+IMAGE_SPREAD_TITLE      PNG                     "res\\PLATFORM_SPREAD\\IMAGE_SPREAD_TITLE.png"
+IMAGE_REWARD_STRUCT     PNG                     "res\\PLATFORM_SPREAD\\IMAGE_REWARD_STRUCT.png"
+BT_COPY_LINK            PNG                     "res\\PLATFORM_SPREAD\\BT_COPY_LINK.png"
+IMAGE_SPREAD_INFO       PNG                     "res\\PLATFORM_SPREAD\\IMAGE_SPREAD_INFO.png"
+TAB_SERVICE_PASSWORD    PNG                     "res\\PLATFORM_SERVICE\\TAB_SERVICE_PASSWORD.png"
+TAB_SERVICE_INDIVIDUAL  PNG                     "res\\PLATFORM_SERVICE\\TAB_SERVICE_INDIVIDUAL.png"
+TAB_SERVICE_WEALTH      PNG                     "res\\PLATFORM_SERVICE\\TAB_SERVICE_WEALTH.png"
+BT_CHANGE_FACE          PNG                     "res\\PLATFORM_SERVICE\\BT_CHANGE_FACE.png"
+BT_CONFIR_INDIVIDUAL    PNG                     "res\\PLATFORM_SERVICE\\BT_CONFIR_INDIVIDUAL.png"
+BT_CHANGE_PASSWORD      PNG                     "res\\PLATFORM_SERVICE\\BT_CHANGE_PASSWORD.png"
+BT_RECHARGE_BEANS       PNG                     "res\\PLATFORM_SERVICE\\BT_RECHARGE.png"
+BT_GET_GAMESCORE        PNG                     "res\\PLATFORM_SERVICE\\BT_GETSCORE.png"
+BT_EXCHANGE             PNG                     "res\\PLATFORM_SERVICE\\BT_EXCHANGE.png"
+BT_OPERATE_INSURE       PNG                     "res\\PLATFORM_SERVICE\\BT_OPERATE_INSURE.png"
+IMAGE_SERVICE_TITLE     PNG                     "res\\PLATFORM_SERVICE\\IMAGE_SERVICE_TITLE.png"
+IMAGE_PASSWORD_FRAME    PNG                     "res\\PLATFORM_SERVICE\\IMAGE_PASSWORD_FRAME.png"
+IMAGE_WEALTH_ITEM       PNG                     "res\\PLATFORM_SERVICE\\IMAGE_WEALTH_ITEM.png"
+BT_SEARCH_ENTER         PNG                     "res\\PLATFORM_SEARCH\\BT_SEARCH_ENTER.png"
+IMAGE_SEARCH_TITLE      PNG                     "res\\PLATFORM_SEARCH\\IMAGE_SEARCH_TITLE.png"
+BT_SEARCH_CONFIRM       PNG                     "res\\PLATFORM_SEARCH\\BT_SEARCH_CONFIRM.png"
+IMAGE_LOCKMACHINE_TITLE PNG                     "res\\PLATFORM_LOCK_MACHINE\\IMAGE_LOCKMACHINE_TITLE.png"
+BT_LOCK_MACHINE1        PNG                     "res\\PLATFORM_LOCK_MACHINE\\BT_LOCK_MACHINE.png"
+BT_UNLOCK_MACHINE       PNG                     "res\\PLATFORM_LOCK_MACHINE\\BT_UNLOCK_MACHINE.png"
+BT_LOCK_CANCEL          PNG                     "res\\PLATFORM_LOCK_MACHINE\\BT_CANCEL.png"
+IMAGE_EXCHANGE_TITLE    PNG                     "res\\PLATFORM_EXCHANGE\\IMAGE_EXCHANGE_TITLE.png"
+TEXT_AS_MEMBER          PNG                     "res\\PLATFORM_EXCHANGE\\TEXT_AS_MEMBER.png"
+TEXT_EXCHANGE_INGOT     PNG                     "res\\PLATFORM_EXCHANGE\\TEXT_EXCHANGE_INGOT.png"
+BT_EXCHANGE_ITEM        PNG                     "res\\PLATFORM_EXCHANGE\\BT_EXCHANGE_ITEM.png"
+BT_CONFIRM_PAY          PNG                     "res\\PLATFORM_EXCHANGE\\BT_CONFIRM_PAY.png"
+BT_CONFIRM_EXCHANGE     PNG                     "res\\PLATFORM_EXCHANGE\\BT_CONFIRM_EXCHANGE.png"
+IMAGE_WHISPER_TITLE     PNG                     "res\\PLATFORM_WHISPER\\IMAGE_WHISPER_TITLE.png"
+BT_WHISPER_SEND         PNG                     "res\\PLATFORM_WHISPER\\BT_WHISPER_SEND.png"
+BT_WHISPER_CLOSE        PNG                     "res\\PLATFORM_WHISPER\\BT_WHISPER_CLOSE.png"
+BT_WHISPER_DOWN         PNG                     "res\\PLATFORM_WHISPER\\BT_WHISPER_DOWN.png"
+BT_CHAT_BUTTON_1        PNG                     "res\\PLATFORM_WHISPER\\BT_CHAT_BUTTON_1.png"
+BT_CHAT_BUTTON_2        PNG                     "res\\PLATFORM_WHISPER\\BT_CHAT_BUTTON_2.png"
+BT_CHAT_BUTTON_3        PNG                     "res\\PLATFORM_WHISPER\\BT_CHAT_BUTTON_3.png"
+BT_USER_MENU            PNG                     "res\\PLATFORM_WHISPER\\BT_USER_MENU.png"
+BT_SHIELD_CHAT_1        PNG                     "res\\PLATFORM_WHISPER\\BT_SHIELD_CHAT_1.png"
+BT_SHIELD_CHAT_2        PNG                     "res\\PLATFORM_WHISPER\\BT_SHIELD_CHAT_2.png"
+BT_SET_DETEST_1         PNG                     "res\\PLATFORM_WHISPER\\BT_SET_DETEST_1.png"
+BT_SET_DETEST_2         PNG                     "res\\PLATFORM_WHISPER\\BT_SET_DETEST_2.png"
+BT_ADD_FRIEND_1         PNG                     "res\\PLATFORM_WHISPER\\BT_ADD_FRIEND_1.png"
+BT_ADD_FRIEND_2         PNG                     "res\\PLATFORM_WHISPER\\BT_ADD_FRIEND_2.png"
+BT_MESSAGE_SETTING      PNG                     "res\\PLATFORM_WHISPER\\BT_MESSAGE_SETTING.png"
+BT_CHAT_HISTORY         PNG                     "res\\PLATFORM_WHISPER\\BT_CHAT_HISTORY.png"
+WHISPER_AREA_ROUND      PNG                     "res\\PLATFORM_WHISPER\\AREA_ROUND.png"
+IMAGE_FACE_BACK         PNG                     "res\\PLATFORM_WHISPER\\IMAGE_FACE_BACK.png"
+BT_DOWNLOAD_LEFT        PNG                     "res\\PLATFORM_DOWNLOAD\\BT_LEFT.png"
+BT_DOWNLOAD_RIGHT       PNG                     "res\\PLATFORM_DOWNLOAD\\BT_RIGHT.png"
+BT_DOWNLOAD_ITEM        PNG                     "res\\PLATFORM_DOWNLOAD\\BT_DOWNLOAD_ITEM.png"
+IMAGE_DOWNLOAD_TITLE    PNG                     "res\\PLATFORM_DOWNLOAD\\IMAGE_DOWNLOAD_TITLE.png"
+IMAGE_DOWNLOAD_SCALE    PNG                     "res\\PLATFORM_DOWNLOAD\\DOWN_LOAD_SCALE.png"
+CHANGE_FACE_TITLE       PNG                     "res\\PLATFORM_FACE\\CHANGE_FACE_TITLE.png"
+BT_SHOW_VLINE           PNG                     "res\\PLATFORM_FACE\\BT_SHOW_VLINE.png"
+BT_TURN_LEFT            PNG                     "res\\PLATFORM_FACE\\BT_TURN_LEFT.png"
+BT_TURN_RIGHT           PNG                     "res\\PLATFORM_FACE\\BT_TURN_RIGHT.png"
+BT_FROM_FILE            PNG                     "res\\PLATFORM_FACE\\BT_FROM_FILE.png"
+BT_LOAD_CAMER           PNG                     "res\\PLATFORM_FACE\\BT_LOAD_CAMER.png"
+TABLE_PASSWORD_TITLE    PNG                     "res\\PLATFORM_TABLE_PASSWORD\\TABLE_PASSWORD_TITLE.png"
+IMAGE_TABLE_PASSWORD    PNG                     "res\\PLATFORM_TABLE_PASSWORD\\IMAGE_TABLE_PASSWORD.png"
+SEARCH_TABLE_TITLE      PNG                     "res\\PLATFORM_SEARCH_TABLE\\SEARCH_TABLE_TITLE.png"
+SEARCH_TABLE_ICON       PNG                     "res\\PLATFORM_SEARCH_TABLE\\SEARCH_TABLE_ICON.png"
+BT_SEARCH_TABLE         PNG                     "res\\PLATFORM_SEARCH_TABLE\\BT_SEARCH_TABLE.png"
+BT_QUICK_JOIN           PNG                     "res\\PLATFORM_SEARCH_TABLE\\BT_QUICK_JOIN.png"
+BT_CLOSE_SEARCH         PNG                     "res\\PLATFORM_SEARCH_TABLE\\BT_CLOSE_SEARCH.png"
+SEARCH_CHECK_NORMAL     PNG                     "res\\PLATFORM_SEARCH_TABLE\\SEARCH_CHECK_NORMAL.png"
+SEARCH_CHECK_CHECKED    PNG                     "res\\PLATFORM_SEARCH_TABLE\\SEARCH_CHECK_CHECKED.png"
+BT_LEFT                 PNG                     "res\\GAME_PROPERTY\\BT_LEFT.png"
+BT_RIGHT                PNG                     "res\\GAME_PROPERTY\\BT_RIGHT.png"
+BT_PROPERTY_BUY         PNG                     "res\\GAME_PROPERTY\\BT_PROPERTY_BUY.png"
+BT_PROPERTY_CLOSE       PNG                     "res\\GAME_PROPERTY\\BT_PROPERTY_CLOSE.png"
+BT_OPTION_COLOR         PNG                     "res\\GAME_PROPERTY\\BT_OPTION_COLOR.png"
+BT_OPTION_EXPRESSION    PNG                     "res\\GAME_PROPERTY\\BT_OPTION_EXPRESSION.png"
+IMAGE_PROPERTY_TITLE    PNG                     "res\\GAME_PROPERTY\\IMAGE_PROPERTY_TITLE.png"
+BT_SKIN_MIN             PNG                     "res\\SKIN_CONTROL\\BT_SKIN_MIN.png"
+BT_SKIN_MAX             PNG                     "res\\SKIN_CONTROL\\BT_SKIN_MAX.png"
+BT_SKIN_RESORE          PNG                     "res\\SKIN_CONTROL\\BT_SKIN_RESORE.png"
+BT_SKIN_CLOSE           PNG                     "res\\SKIN_CONTROL\\BT_SKIN_CLOSE.png"
+INSURE_TITLE            PNG                     "res\\SHARE_CONTROL\\INSURE\\INSURE_TITLE.png"
+IMAGE_MONEY             PNG                     "res\\SHARE_CONTROL\\INSURE\\IMAGE_MONEY.png"
+IMAGE_BANK              PNG                     "res\\SHARE_CONTROL\\INSURE\\IMAGE_BANK.png"
+IMAGE_INSURE_REFRESH    PNG                     "res\\SHARE_CONTROL\\INSURE\\IMAGE_INSURE_REFRESH.png"
+TAB_INSURE_SAVE         PNG                     "res\\SHARE_CONTROL\\INSURE\\TAB_INSURE_SAVE.png"
+TAB_INSURE_TRANSFER     PNG                     "res\\SHARE_CONTROL\\INSURE\\TAB_INSURE_TRANSFER.png"
+TAB_INSURE_RECORD       PNG                     "res\\SHARE_CONTROL\\INSURE\\TAB_INSURE_RECORD.png"
+BT_INSURE_SAVE          PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_INSURE_SAVE.png"
+BT_INSURE_TAKE          PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_INSURE_TAKE.png"
+BT_INSURE_EXCHANGE      PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_INSURE_EXCHANGE.png"
+BT_EXCHANGE_CONFIRM     PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_EXCHANGE_CONFIRM.png"
+BT_INSURE_REFRESH       PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_INSURE_REFRESH.png"
+BT_OPEN_INSURE          PNG                     "res\\SHARE_CONTROL\\INSURE\\BT_OPEN_INSURE.png"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_IMAGE_REGISTER      BITMAP                  "res\\PLAZA_LOGON\\IMAGE_REGISTER.bmp"
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\PlatformResource.rc2"  // 不是由 Microsoft Visual C++ 编辑过的资源
+#include "afxres.rc"     // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
